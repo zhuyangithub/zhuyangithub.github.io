@@ -150,6 +150,45 @@ body{
     z-index: -1;
     opacity: 0;
 }
+.xingqiu{
+    position: absolute;
+    width: 1.07rem;
+    height: 1rem;
+    background: url('../img/xingqiu.png') no-repeat;
+    background-size: 1.07rem;
+    -webkit-animation: fly1 4s  linear;  
+    -moz-animation: fly1 4s  linear;  
+    animation: fly1 4s  linear; 
+    z-index: 1;
+    opacity: 1;
+    animation-delay:2s;
+    -webkit-animation-delay:2s
+    -webkit-transform:matrix(1,0,0,1,320,-290);
+    -moz-transform:matrix(1,0,0,1,320,-290);
+    transform: matrix(1,0,0,1,320,-290);
+    option:0;
+}
+@keyframes fly1 {  
+    0% {  
+        -webkit-transform:matrix(1,0,0,1,320,-290);
+        -moz-transform:matrix(1,0,0,1,320,-290);
+        transform: matrix(1,0,0,1,320,-290);
+        option:1;
+    }  
+    55% {  
+        -webkit-transform:matrix(1,0,0,1,40,-90);
+        -moz-transform:matrix(1,0,0,1,40,-90);
+        transform: matrix(1,0,0,1,40,-90);
+        option:1;
+    }
+    100% {  
+        -webkit-transform:matrix(1,0,0,1,-50,-10);
+        -moz-transform:matrix(1,0,0,1,-50,-10);
+        transform: matrix(1,0,0,1,-50,-10);
+        option:0;
+    }  
+} 
+
 @keyframes fly {  
  0% {  
      -webkit-transform:matrix(1,0,0,1,0,0);
