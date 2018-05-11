@@ -53,6 +53,7 @@ body{
     height: 5.5rem;
     background: url('../img/1.png') no-repeat center center;
     background-size: 4.22rem ;
+    top:-0.4rem;
 }
 .circular{
     position: absolute;
