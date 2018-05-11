@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>demo</title>
+    <link href="css/m-reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/rem.min.js" fu-psd="750" fu-min="40" fu-max="100"></script>
+    <style>
+       .xingqiu{
+            position: absolute;
+            width: 1.07rem;
+            height: 1rem;
+            background: url('img/xingqiu.png') no-repeat;
+            background-size: 1.07rem;
+            -webkit-animation: fly1 4s  linear;  
+            -moz-animation: fly1 4s  linear;  
+            animation: fly1 4s  linear; 
+            z-index: 1;
+            opacity: 1;
+            animation-delay:2s;
+            -webkit-animation-delay:2s
+            -webkit-transform:matrix(1,0,0,1,320,-290);
+            -moz-transform:matrix(1,0,0,1,320,-290);
+            transform: matrix(1,0,0,1,320,-290);
+       }
+       @keyframes fly1 {  
+            0% {  
+                -webkit-transform:matrix(1,0,0,1,320,-290);
+                -moz-transform:matrix(1,0,0,1,320,-290);
+                transform: matrix(1,0,0,1,320,-290);
+                
+            }  
+            55% {  
+                -webkit-transform:matrix(1,0,0,1,40,-90);
+                -moz-transform:matrix(1,0,0,1,40,-90);
+                transform: matrix(1,0,0,1,40,-90);
+            }
+            100% {  
+                -webkit-transform:matrix(1,0,0,1,-50,-10);
+                -moz-transform:matrix(1,0,0,1,-50,-10);
+                transform: matrix(1,0,0,1,-50,-10);
+                
+            }  
+      } 
+
+    </style>
+</head>
+<body>
+    <!--遮罩层-->
+    <div class="maskBox" style="display: none;"></div>
+    <!--弹层-->
+    <div class="popup animated bounceIn" style="display: none;">
+        <a href="javascript:;" class="closeBtn"></a>
+        <div class="popup-con">
+            <h2>科技活动周简介</h2>
+            <div>
+                <p>2018年是贯彻党的十九大精神的开局之年，是改革开放40周年，是决胜全面建成小康社会的关键一年。为充分宣传改革开放40年、特别是党的十八大以来我国科技创新发展取得的重大成果和突出成就，弘扬科学精神，普及科学知识，加快提升公民科学文化素质，为新时代全面深入实施创新驱动发展战略、加快建设世界科技强国营造良好的创新文化氛围，科技部、中央宣传部、中国科协决定2018年继续举办全国科技活动周。</p>
+                <p>国家图书馆2018年科技周将以“科技创新 强国富民”为主题，举办系列活动，以大众最关心的科技话题为中心，精选文津图书奖优秀科普类图书，普及科学知识，拉近大众与科学的距离，提升科学文化素质，让更多的读者共享科技的快乐。</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="page-con">
+        <div class="page-header">
+            <div class="triangle"><img src="img/sanjiao.png"></div>
+            <div class="circular"><img src="img/leishe.png"></div>
+        </div>
+    </div>
+    <div class="page-txt">
+        <h2>科技活动周简介：</h2>
+        <div>
+            <p>2018年是贯彻党的十九大精神的开局之年，是改革开放40周年，是决胜全面建成小康社会的关键一年。为充分宣传改革开放40年、特别是党的十八大以来我国科技创新发展取得的重大成果和突出成就，弘扬科学精神，普及科学知识，加快提升公民科学文化素质，为新</p>
+        </div>
+        <div class="styleDiv"></div>
+    </div>
+    <div class="page-briefly">
+        <a href="javascirpt:;" id="showAll">全部简介</a>
+    </div>
+
+    <div class="page-btn">
+        <a href="#" class="btnTxt tstjBtn"></a>
+        <a href="#" class="btnTxt gtgkkjBtn"></a>
+    </div>
+
+    <div class="houjian"></div>
+    <div class="xingqiu"></div>
+
+    <script src="js/jquery-2.1.0.js"></script>
+    <script>
+        $(function(){
+            var showAll = $("#showAll");
+            var maskBox = $(".maskBox");
+            var popup = $(".popup"); 
+            var closeBtn = $(".closeBtn");
+            
+            showAll.click(function(){
+                maskBox.show();
+                popup.show();
+            })
+            closeBtn.click(function(){
+                maskBox.hide();
+                popup.hide();
+            })
+
+        })
+    </script>
+</body>
+</html>

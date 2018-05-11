@@ -1,0 +1,208 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url('../img/bg.png') no-repeat;
+    background-size:cover;
+    overflow: hidden;
+}
+ .maskBox{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+.popup{
+    position: absolute;
+    top:2rem;
+    left: 50%;
+    margin-left: -3.25rem;
+    width: 5.7rem;
+    background:#fff;
+    border:1px solid #ccc;
+    padding: 0.85rem 0.4rem;
+    z-index: 3;
+}
+.popup-con h2{
+    color: #35527e;
+    font-size: 0.28rem;
+    text-align: center;
+    margin-bottom: 0.3rem;
+    font-weight:bold;
+    
+}
+.popup-con div p{
+    text-indent: 0.5rem;
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    color: #35527e;
+}
+.closeBtn{
+    position: absolute;
+    right: 0.16rem;
+    top:0.12rem;
+    width: 0.47rem;
+    height: 0.47rem;
+    background: url('../img/close.jpg') no-repeat;
+    background-size: 0.47rem;
+}
+.page-header{
+    position: relative;
+    height: 6.34rem;
+    background: url('../img/1.png') no-repeat center center;
+    background-size: 4.22rem ;
+}
+.circular{
+    position: absolute;
+    top:1.6rem;
+    left:9%;
+    -webkit-animation: zoom1 2s infinite linear;  
+    -moz-animation: zoom1 2s infinite linear;  
+    animation: zoom1 2s infinite linear; 
+    z-index: 1; 
+}
+.circular img{
+    width: 6.14rem;
+    height: 4.31rem;
+}
+.triangle{
+    position: absolute;
+    top:1.6rem;
+    left:9%;
+    -webkit-animation: zoom 2s infinite linear;  
+    -moz-animation: zoom 2s infinite linear;  
+    animation: zoom 2s infinite linear;  
+    z-index: 2;
+}
+.triangle img{
+    width: 6.14rem;
+    height: 4.31rem;
+}
+.page-txt{
+    margin: 0 auto;
+    width: 5.94rem;
+    background: rgba(91,160,248,0.2);
+    padding: 0.3rem; 
+    color: #39567b;
+    position: relative;
+ }
+ .page-txt h2{
+     font-size: 0.28rem;
+     font-weight: bold;
+     margin-bottom: 0.15rem;
+ }
+ .page-txt p{
+     font-size: 0.24rem;
+     font-weight: bold;
+     line-height: 0.5rem;
+     text-indent: 0.23rem;
+     letter-spacing: 0.002rem;
+ }
+
+ .styleDiv{
+    position: absolute;
+    bottom:-0.15rem;
+    width: 6.1rem;
+    height: 0.11rem;
+    left: 0.24rem;
+    background:rgba(127,179,249,0.14);
+}
+.page-briefly{
+    text-align: center;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-top: 0.26rem;
+}
+.page-briefly a{
+    display: inline-block;
+    width: 100%;
+    color: #4a7dc6;
+    font-size:0.28rem;
+}
+.page-btn{
+    margin-top: 0.3rem;
+    text-align: center;
+}
+.btnTxt{
+    display: inline-block;
+    width:2.82rem;
+    height: 0.78rem;
+    background-size:2.82rem !important;
+    margin-top: 0.4rem;
+}
+.tstjBtn{
+     background: url('../img/tstjBtn.png') no-repeat;
+     margin-right: 0.45rem;
+}
+.gtgkkjBtn{
+     background: url('../img/gtgkkjBtn.png') no-repeat;
+}
+.houjian{
+    position: absolute;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url('../img/huojian.png') no-repeat;
+    background-size: 0.28rem;
+    -webkit-animation: fly 4s  linear;  
+    -moz-animation: fly 4s  linear;  
+    animation: fly 4s  linear;  
+    z-index: -1;
+    opacity: 0;
+}
+@keyframes fly {  
+ 0% {  
+     -webkit-transform:matrix(1,0,0,1,0,0);
+     -moz-transform:matrix(1,0,0,1,0,0);
+     transform: matrix(1,0,0,1,0,0);
+     opacity: 1;
+ }  
+ 35% {  
+     -webkit-transform:matrix(1,0,0,1,213,-306);;
+     -moz-transform:matrix(1,0,0,1,213,-306);;
+     transform: matrix(1,0,0,1,213,-306);
+     opacity: 1;
+ }
+ 100% {  
+     -webkit-transform:matrix(1,0,0,1,323,-475);
+     -moz-transform:matrix(1,0,0,1,323,-475);
+     transform: matrix(1,0,0,1,323,-475);
+     opacity: 0;
+ }  
+} 
+ 
+@keyframes zoom {  
+    0% {  
+        transform: scale(1);
+    }  
+    25% {  
+        transform: scale(1.05);
+    }  
+    50% {  
+        transform: scale(1.1); 
+    }  
+    75% {  
+        transform: scale(1.05); 
+    }  
+    100% {  
+        transform: scale(1); 
+    }  
+}  
+@keyframes zoom1 {  
+    0% {  
+        transform: scale(1.1);
+    }  
+    25% {  
+        transform: scale(1.05);
+    }  
+    50% {  
+        transform: scale(1); 
+    }  
+    75% {  
+        transform: scale(1.05); 
+    }  
+    100% {  
+        transform: scale(1.1); 
+    }  
+}  
+        
