@@ -163,9 +163,7 @@ body{
     opacity: 1;
     animation-delay:2s;
     -webkit-animation-delay:2s
-    -webkit-transform:matrix(1,0,0,1,380,-370);
-    -moz-transform:matrix(1,0,0,1,380,-370);
-    transform:matrix(1,0,0,1,380,-370);
+
 }
 @keyframes fly1 {  
     0% {  
@@ -196,8 +194,8 @@ body{
      opacity: 1;
  }  
  35% {  
-     -webkit-transform:matrix(1,0,0,1,213,-306);;
-     -moz-transform:matrix(1,0,0,1,213,-306);;
+     -webkit-transform:matrix(1,0,0,1,213,-306);
+     -moz-transform:matrix(1,0,0,1,213,-306);
      transform: matrix(1,0,0,1,213,-306);
      opacity: 1;
  }
