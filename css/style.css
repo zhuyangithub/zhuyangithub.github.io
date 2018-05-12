@@ -190,6 +190,7 @@ body{
         -moz-transform:matrix(1,0,0,1,-50,-10);
         transform: matrix(1,0,0,1,-50,-10);
         option:1;
+        animation-delay:3s;
     }  
 } 
 
