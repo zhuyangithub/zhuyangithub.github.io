@@ -49,6 +49,7 @@ body{
     background-size: 0.47rem;
 }
 .page-header{
+    width: 7.5rem;
     position: relative;
     height: 5.5rem;
     background: url('../img/1.png') no-repeat center center;
@@ -171,6 +172,21 @@ body{
 }
 #showAll{
     font-weight: bold;
+}
+.sj_l,.sj_r{
+    position: absolute;
+    width: 0.65rem;
+    height: 5rem;
+    background-size: 0.65rem !important;
+    top:2.4rem;
+}
+.sj_l{
+    left:0;
+    background:url('../img/sj_l.png') no-repeat;
+}
+.sj_r{
+    background:url('../img/sj_r.png') no-repeat;
+    right:0;
 }
 @keyframes fly1 {  
     0% {  
