@@ -98,6 +98,7 @@ body{
     padding: 0.3rem; 
     color: #39567b;
     position: relative;
+    height: 100%;
  }
  .page-txt h2{
      font-size: 0.28rem;
@@ -296,6 +297,7 @@ body{
 /*list页面*/
 .page-list{
     width: 7.5rem;
+    height: 100%;
     /* position: relative;
     left:17%; */
    
