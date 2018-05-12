@@ -163,7 +163,7 @@ body{
     animation: fly1 4s  infinite linear; 
     z-index: 1;
     opacity: 1;
-    animation-delay:2s;
+    animation-delay:3s;
     -webkit-transform:matrix(1,0,0,1,430,-353);
     -moz-transform:matrix(1,0,0,1,430,-353);
     transform: matrix(1,0,0,1,430,-353);
