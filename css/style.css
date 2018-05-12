@@ -116,7 +116,7 @@ body{
     line-height: 0.5rem;
     margin-top: 0.26rem;
 }
-.page-briefly a{
+.page-briefly span{
     display: inline-block;
     width: 100%;
     color: #4a7dc6;
