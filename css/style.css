@@ -62,7 +62,7 @@ body{
     -webkit-animation: zoom1 2s infinite linear;  
     -moz-animation: zoom1 2s infinite linear;  
     animation: zoom1 2s infinite linear; 
-    z-index: 1; 
+    z-index: -1; 
 }
 .circular img{
     width: 6.14rem;
@@ -75,7 +75,7 @@ body{
     -webkit-animation: zoom 2s infinite linear;  
     -moz-animation: zoom 2s infinite linear;  
     animation: zoom 2s infinite linear;  
-    z-index: 2;
+    z-index: -1;
 }
 .triangle img{
     width: 6.14rem;
@@ -168,6 +168,9 @@ body{
     -moz-transform:matrix(1,0,0,1,430,-353);
     transform: matrix(1,0,0,1,430,-353);
     option:0;
+}
+#showAll{
+    font-weight: bold;
 }
 @keyframes fly1 {  
     0% {  
