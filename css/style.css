@@ -146,9 +146,9 @@ body{
     height: 0.28rem;
     background: url('../img/huojian.png') no-repeat;
     background-size: 0.28rem;
-    -webkit-animation: fly 4s  linear;  
-    -moz-animation: fly 4s  linear;  
-    animation: fly 4s  linear;  
+    -webkit-animation: fly 4s infinite linear;  
+    -moz-animation: fly 4s infinite linear;  
+    animation: fly 4s infinite linear;  
     z-index: -1;
     opacity: 0;
 }
@@ -158,9 +158,9 @@ body{
     height: 1rem;
     background: url('../img/xingqiu.png') no-repeat;
     background-size: 1.07rem;
-    -webkit-animation: fly1 4s  linear;  
-    -moz-animation: fly1 4s  linear;  
-    animation: fly1 4s  linear; 
+    -webkit-animation: fly1 4s infinite  linear;  
+    -moz-animation: fly1 4s infinite  linear;  
+    animation: fly1 4s  infinite linear; 
     z-index: 1;
     opacity: 1;
     animation-delay:2s;
