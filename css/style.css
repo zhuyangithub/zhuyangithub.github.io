@@ -352,6 +352,9 @@ body{
 }
 
 @media screen and(min-width: 1024px){  
+    body{
+        overflow-y: scroll !important;
+    }
     .page-box{
         position: relative;
         overflow: hidden;
@@ -367,6 +370,9 @@ body{
 } 
 
 @media screen and (min-width : 1024px)  {
+    body{
+        overflow-y: scroll !important;
+    }
     .page-box{
         position: relative;
         overflow: hidden;
@@ -380,3 +386,13 @@ body{
         left:17% !important;
     }
 }  
+
+@media all and (orientation : landscape) { 
+    body{
+        width: 100% !important;
+        overflow-y: scroll;
+    }
+    .page-box{
+        left: 25%;
+    }
+} 
