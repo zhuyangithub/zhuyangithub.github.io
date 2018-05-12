@@ -8,6 +8,14 @@ body{
     overflow: hidden;
     width: 7.5rem;
 }
+/*首页页面*/
+.page-box{
+    position: relative;
+    overflow: hidden;
+    width: 7.5rem;
+    height: auto;
+    /* left: 17%; */
+}
  .maskBox{
     position: fixed;
     width: 100%;
@@ -284,4 +292,40 @@ body{
         transform: scale(1.1); 
     }  
 }  
-        
+
+/*list页面*/
+.page-list{
+    width: 7.5rem;
+    /* position: relative;
+    left:17%; */
+   
+}
+.page-txt{
+  overflow:hidden;
+}
+.page-txt ul li{
+    float: left;
+    width: 2.6rem;
+    height: 1.9rem;
+    margin: 0.1rem 0;
+    overflow:hidden;
+}
+.page-txt ul li:nth-of-type(odd){
+    margin-right: 0.7rem;
+}
+.page-txt ul li a{
+    display: inline-block;
+    text-align: center;
+    color: #2e4465;
+    font-size: 0.20rem;
+}
+.page-txt ul li a img{
+     width: 2.6rem;
+}
+.page-txt ul li p{
+    width: 2.6rem;
+    text-indent: 0;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
