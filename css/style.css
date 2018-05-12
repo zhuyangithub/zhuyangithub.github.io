@@ -329,3 +329,53 @@ body{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+@media only screen  
+and (min-device-width : 767px)  
+and (max-device-width : 1024px){  
+    .page-box{
+        position: relative;
+        overflow: hidden;
+        width: 7.5rem;
+        height: auto;
+        left: 17% ;
+    }
+    .page-list{
+        width: 7.5rem;
+        position: relative;
+        left:17%;
+    }
+}  
+@media only screen  
+and (min-device-width : 767px)  
+and (max-device-width : 1024px)  
+and (orientation : portrait){  
+    .page-box{
+        position: relative;
+        overflow: hidden;
+        width: 7.5rem;
+        height: auto;
+        left: 17% ;
+    }
+    .page-list{
+        width: 7.5rem;
+        position: relative;
+        left:17%;
+    }
+} 
+
+@media screen and (max-device-width: 768px) {
+
+        .page-box {
+            position: relative;
+            overflow: hidden;
+            width: 7.5rem;
+            height: auto;
+            top:-0.4rem;
+            left: 0% !important;
+            -webkit-transform: scale(0.9);
+            -moz-transform:scale(0.9)
+            transform: scale(0.9);
+        }
+
+}
