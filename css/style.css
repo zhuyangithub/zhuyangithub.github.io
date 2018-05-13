@@ -339,7 +339,9 @@ body{
 
 
 @media screen and (min-width: 768px) {
-
+    body{
+        overflow-y: scroll;
+    }
     .page-box {
         position: relative;
         overflow: hidden;
