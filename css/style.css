@@ -350,8 +350,9 @@ body{
         -webkit-transform: scale(0.95);
         -moz-transform:scale(0.95)
         transform: scale(0.95);
+        left: 50% !important;
+        margin-left: 9%;
     }
-
 }
 
 @media screen and(min-width: 1024px){  
@@ -389,6 +390,8 @@ body{
         left:17% !important;
     }
 }  
+
+
 
 @media all and (orientation : landscape) { 
     body{
