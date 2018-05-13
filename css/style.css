@@ -341,27 +341,22 @@ body{
 @media screen and (min-width: 768px) {
     body{
         overflow-y: scroll;
+        width: 100%;
     }
     .page-box {
         position: relative;
         overflow: hidden;
         width: 7.5rem;
         height: auto;
-        top:-0.4rem;
-        left: 0% !important;
-        -webkit-transform: scale(0.95);
-        -moz-transform:scale(0.95)
-        transform: scale(0.95);
-        top:0;
-        left:0;
-        bottom:0;
-        right: 0;
+        left: 50% !important;
+        margin-left: -375px;
     }
 }
 
 @media screen and(min-width: 1024px){  
     body{
         overflow-y: scroll !important;
+        width: 100%;
     }
     .page-box{
         position: relative;
@@ -380,6 +375,7 @@ body{
 @media screen and (min-width : 1024px)  {
     body{
         overflow-y: scroll !important;
+        width: 100%;
     }
     .page-box{
         position: relative;
@@ -404,6 +400,7 @@ body{
         overflow-y: scroll;
     }
     .page-box{
-        left: 25%;
+        left: 50% !important;
+        margin-left: -375px;
     }
 } 
