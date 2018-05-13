@@ -350,8 +350,10 @@ body{
         -webkit-transform: scale(0.95);
         -moz-transform:scale(0.95)
         transform: scale(0.95);
-        left: 50% !important;
-        margin-left: 9%;
+        top:0;
+        left:0;
+        bottom:0;
+        right: 0;
     }
 }
 
@@ -382,7 +384,8 @@ body{
         overflow: hidden;
         width: 7.5rem;
         height: auto;
-        left: 17% !important;
+        left: 50% !important;
+        margin-left: -375px;
     }
     .page-list{
         width: 7.5rem;
