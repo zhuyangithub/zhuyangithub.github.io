@@ -106,7 +106,7 @@ body{
      margin-bottom: 0.15rem;
  }
  .page-txt p{
-     font-size: 0.24rem;
+     font-size: 0.28rem;
      font-weight: bold;
      line-height: 0.5rem;
      text-indent: 0.23rem;
@@ -182,7 +182,11 @@ body{
     option:0;
 }
 #showAll{
+    width: 100%;
+    height: 0.51rem;
     font-weight: bold;
+    background: url('../img/more.png') no-repeat center center;
+    background-size: 0.51rem 0.51rem;
 }
 .sj_l,.sj_r{
     position: absolute;
