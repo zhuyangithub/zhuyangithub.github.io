@@ -3,7 +3,7 @@ html,body{
     height: 100%;
 }
 body{
-    background: url('../img/bg.png') no-repeat;
+    background: url('../img/bg.jpg') no-repeat;
     background-size:cover;
     overflow: hidden;
     width: 7.5rem;
@@ -106,10 +106,9 @@ body{
      margin-bottom: 0.15rem;
  }
  .page-txt p{
-     font-size: 0.28rem;
+     font-size: 0.24rem;
      font-weight: bold;
      line-height: 0.5rem;
-     text-indent: 0.23rem;
      letter-spacing: 0.002rem;
      margin-bottom: 0.2rem;
  }
