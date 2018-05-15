@@ -6,7 +6,6 @@ body{
     background: url('../img/bg.jpg') no-repeat;
     background-size:cover;
     overflow: hidden;
-    width: 7.5rem;
 }
 /*首页页面*/
 .page-box{
