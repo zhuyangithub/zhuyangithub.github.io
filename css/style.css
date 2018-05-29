@@ -89,7 +89,7 @@ body{
     background: url('../img/shanshuo2.png') no-repeat;
     background-size: 0.48rem;
     position: absolute;
-    right: 0.19rem;
+    right: 0.3rem;
     top: 5.8rem;
 }
 .huangdong{
@@ -151,7 +151,7 @@ body{
 }
 .flash1{
     animation-iteration-count:infinite;
-    animation-duration:10s !important;
+    animation-duration:3s !important;
 }
 
 @keyframes spin {
