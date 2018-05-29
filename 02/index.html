@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>听见童话</title>
+    <link href="css/m-reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/rem.min.js" fu-psd="750" fu-min="40" fu-max="100"></script>
+</head>
+<body class="bg">
+    
+    <!--页面动画 开始-->
+    <div class="shanshuo flash animated"></div>
+    <div class="shanshuo2 flash1 animated"></div>
+    <div class="huangdong shake animated"></div>
+    <div class="huangdong2 shake1 animated"></div>
+    <div class="huangdong3 shake2 animated"></div>
+    <div class="zhuandong"></div>
+    <!--页面动画 结束-->
+    
+    <!--按钮-->
+    <div class="btnBox">
+        <a href="http://mtr.nlc.cn/01/html/special.html?topicId=1881&title=%E8%87%B4%E6%95%AC%E7%BB%8F%E5%85%B8%E2%80%A2%E5%90%AC%E8%A7%81%E7%AB%A5%E5%B9%B4" class="icon tushu"></a>
+        <a href="http://m.ndlib.cn/03/html/special.html?topicId=1861&title=%E4%BA%B2%E5%AD%90%E9%98%85%E8%AF%BB%20%E6%AC%A2%E5%BA%A6%E5%84%BF%E7%AB%A5%E8%8A%82" class="icon qinzi"></a>
+    </div>
+    
+    <!--简介-->
+    <div class="infoBox">
+        <span class="icontopBtn"></span>
+        <p>童年，是妈妈唱的歌；童年，是电视里响起的动画片音乐；童年，是悠长夏日里知了不知疲倦的鸣叫；童年，是糖葫芦小摊上让人流口水的叫卖；童年，是和小伙伴一起无拘无束的大笑。这些声音伴随着我们的童年记忆，点缀了最美好的少年时光，但最难忘的还是那些在童年里陪伴着我们的经典儿童故事，让我们在奇妙的童话世界里徜徉。本期活动以六一国际儿童节为契机，向公众推荐了一批高质量的童书音频，让大人们重温旧梦，让孩子们自由翱翔——让我们一起“听见童年”。</p>
+    </div>
+
+    <script src="js/jquery-2.1.0.js"></script>
+    <script>
+           $("body").on("touchstart", function(e) {
+        　　　　e.preventDefault();
+        　　　　startX = e.originalEvent.changedTouches[0].pageX,
+        　　　　startY = e.originalEvent.changedTouches[0].pageY;
+        　　});
+        　　$("body").on("touchmove", function(e) {
+        　　　　e.preventDefault();
+        　　　　moveEndX = e.originalEvent.changedTouches[0].pageX,
+        　　　　moveEndY = e.originalEvent.changedTouches[0].pageY,
+        　　　　X = moveEndX - startX,
+        　　　　Y = moveEndY - startY;
+
+            if ( Y > 0) {
+                //往下滑
+                $(".infoBox").css('bottom','-3.9rem')
+                $(".icontopBtn").removeClass('xz');
+                $(".btnBox").css('bottom','3.54rem')
+        　　　　}
+        　　　　else if ( Y < 0 ) {
+                //往上滑
+                $(".infoBox").css('bottom','0.5rem')
+                $(".icontopBtn").addClass('xz');
+                $(".btnBox").css('bottom','6.54rem')
+        　　　　}
+           });
+    </script>
+</body>
+</html>

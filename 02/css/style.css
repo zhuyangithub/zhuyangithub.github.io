@@ -1,0 +1,180 @@
+html,bdoy{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size:cover;
+    height: 100%;
+}
+.infoBox{
+    width: 5.76rem;
+    height: 4.42rem;
+    position: absolute;
+    bottom: -3.6rem;
+    left:50%;
+    margin-left: -3.3rem;
+    transition: 1s all;
+    background: url('../img/tanchuang.jpg') no-repeat;
+    background-size: 6.6rem;
+    /*background-size:*/
+    padding: 0.73rem 0.46rem 0.53rem 0.46rem;
+    text-indent: 0.47rem;
+    line-height: 0.47rem;
+    font-size: 0.23rem;
+}
+.icon{
+    display: inline-block;
+}
+.tushu{
+    width: 3.24rem;
+    height: 0.79rem;
+    background: url('../img/tushu.png') no-repeat top center;
+    background-size: 2.6rem;
+    outline: none;
+}
+.qinzi{
+    width: 3.24rem;
+    height: 0.79rem;
+    background: url('../img/qinzi.png') no-repeat top center;
+    background-size: 2.6rem;
+    outline: none;
+}
+.btnBox{
+    position: absolute;
+    width: 100%;
+    height: 1rem;
+    bottom: 3.54rem;
+    overflow: hidden;
+    transition: 1.8s all
+}
+.btnBox a{
+    display: inline-block;
+    width: 3.75rem;
+    float: left;
+}
+.icontopBtn{
+    display: inline-block;
+    width: 0.37rem;
+    height: 0.22rem;
+    position: absolute;
+    left:50%;
+    top: 0.2rem;
+    margin-left: -0.22rem;
+    background: url('../img/topBtn.jpg') no-repeat;
+    background-size: 0.37rem;
+    transition: 1s all;
+}
+.xz{
+    transform:rotate(180deg);
+    transition: 1s all;
+}
+
+.shanshuo{
+    display: inline-block;
+    width: 0.48rem;
+    height: 0.72rem;
+    background: url('../img/shanshuo.png') no-repeat;
+    background-size: 0.48rem;
+    position: absolute;
+    left:2.6rem;
+    top:0.5rem;
+    /*animation-timing-function:1s*/
+}
+.shanshuo2{
+    display: inline-block;
+    width: 0.48rem;
+    height: 0.72rem;
+    background: url('../img/shanshuo2.png') no-repeat;
+    background-size: 0.48rem;
+    position: absolute;
+    right: 0.19rem;
+    top: 5.8rem;
+}
+.huangdong{
+    display: inline-block;
+    width: 1.23rem;
+    height: 0.81rem;
+    background: url('../img/huangdong.png') no-repeat;
+    background-size: 1.23rem;
+    position: absolute;
+    right: 1.7rem;
+    top: 0.14rem;
+}
+.huangdong2{
+    display: inline-block;
+    width: 0.47rem;
+    height: 0.57rem;
+    background: url('../img/huangdong2.png') no-repeat;
+    background-size: 0.47rem;
+    position: absolute;
+    left: 2.7rem;
+    top: 7.7rem;
+}
+.huangdong3{
+    display: inline-block;
+    width: 0.96rem;
+    height: 1.09rem;
+    background: url('../img/huandong3.png') no-repeat;
+    background-size: 0.96rem;
+    position: absolute;
+    left: 0.3rem;
+    top: 2.9rem;
+}
+.zhuandong{
+    display: inline-block;
+    width: 0.98rem;
+    height: 0.99rem;
+    background: url('../img/zhuandong.png') no-repeat;
+    background-size: 0.98rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.64rem;
+    animation: spin 2800ms infinite linear; 
+}
+.shake{
+    animation-iteration-count:infinite;
+    animation-duration:20s !important;  
+}
+.shake1{
+    animation-iteration-count:infinite;
+    animation-duration:50s !important;  
+}
+.shake2{
+    animation-iteration-count:infinite;
+    animation-duration:30s !important;  
+}
+.flash{
+    animation-iteration-count:infinite;
+    animation-duration:4s !important;
+}
+.flash1{
+    animation-iteration-count:infinite;
+    animation-duration:10s !important;
+}
+
+@keyframes spin {
+    0%   { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* @media screen and (min-width : 1024px)  {
+    body{
+        overflow-y: scroll !important;
+        width: 100%;
+    }
+    .page-box{
+        position: relative;
+        overflow: hidden;
+        width: 7.5rem;
+        height: auto;
+        left: 50% !important;
+        margin-left: -375px;
+    }
+    .page-list{
+        width: 7.5rem;
+        position: relative;
+        left:17% !important;
+    }
+}   */

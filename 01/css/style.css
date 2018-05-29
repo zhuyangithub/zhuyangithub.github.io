@@ -3,8 +3,7 @@ html,body{
     height: 100%;
 }
 body{
-   
-    background-size:cover;
+
     overflow: hidden;
 }
 /*首页页面*/
@@ -24,12 +23,13 @@ body{
 }
 .popup{
     position: absolute;
-    top:2rem;
     left: 50%;
+    top:50%;
+    margin-top: -4.5rem;
     margin-left: -3.25rem;
     width: 5.7rem;
-    background:#fff;
-    border:1px solid #ccc;
+    background: #fff;
+    border: 1px solid #ccc;
     padding: 0.85rem 0.4rem;
     z-index: 10;
 }
@@ -43,7 +43,7 @@ body{
 }
 .popup-con div p{
     text-indent: 0.5rem;
-    font-size: 0.24rem;
+    font-size: 0.26rem;
     line-height: 0.48rem;
     color: #35527e;
 }
