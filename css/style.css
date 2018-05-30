@@ -28,14 +28,14 @@ body{
     display: inline-block;
 }
 .tushu{
-    /* width: 3.24rem; */
+    width: 3.7rem;
     height: 0.79rem;
     background: url('../img/tushu.png') no-repeat top center;
     background-size: 2.6rem;
     outline: none;
 }
 .qinzi{
-    /* width: 3.24rem; */
+    width: 3.7rem;
     height: 0.79rem;
     background: url('../img/qinzi.png') no-repeat top center;
     background-size: 2.6rem;
@@ -51,7 +51,7 @@ body{
 }
 .btnBox a{
     display: inline-block;
-    width: 3.75rem;
+    width: 3.7rem;
     float: left;
     height: 0.79rem;
 }
