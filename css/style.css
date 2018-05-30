@@ -28,14 +28,14 @@ body{
     display: inline-block;
 }
 .tushu{
-    width: 3.24rem;
+    /* width: 3.24rem; */
     height: 0.79rem;
     background: url('../img/tushu.png') no-repeat top center;
     background-size: 2.6rem;
     outline: none;
 }
 .qinzi{
-    width: 3.24rem;
+    /* width: 3.24rem; */
     height: 0.79rem;
     background: url('../img/qinzi.png') no-repeat top center;
     background-size: 2.6rem;
@@ -53,7 +53,7 @@ body{
     display: inline-block;
     width: 3.75rem;
     float: left;
-    height: 1.2rem;
+    height: 0.79rem;
 }
 .icontopBtn{
     display: inline-block;
