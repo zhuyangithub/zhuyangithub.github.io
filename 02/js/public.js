@@ -62,7 +62,7 @@ function ListenerFn(){
     var timeTemp = 0
     var a = setInterval(function(){
         if(timeTemp==1){
-            $(".bi").css("animation-name","shan2").css("animation-iteration-count","infinite").css("animation-duration","2s")
+            $(".bi").css("animation-name","shan2").css("animation-iteration-count","infinite").css("animation-duration","2s").css("animation-delay","0s")
             clearInterval(a)
         }
         timeTemp++
