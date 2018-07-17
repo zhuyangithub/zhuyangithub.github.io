@@ -325,7 +325,7 @@ body{
         opacity: 1;
     }
 
-    60% {
+    100% {
         top:7.5rem;
         left:13.8rem;
         opacity: 0;
