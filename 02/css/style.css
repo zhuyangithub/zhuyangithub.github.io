@@ -434,7 +434,26 @@ body{
     }
    
     100%{
-        top: 2rem;
+        top: 2.5rem;
+        opacity:1;
+    }
+}
+@keyframes shan2 {
+    0%{
+        opacity: 1;
+    }
+    30%{
+        opacity: .3;
+    }
+    50%{
+        opacity: .8;
+    }
+    70%{
+        opacity: .8;
+    }
+    85%{
+    }
+    100%{
         opacity:1;
     }
 }

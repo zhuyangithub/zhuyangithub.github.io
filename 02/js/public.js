@@ -1,5 +1,7 @@
 $(function() {
 
+    document.getElementById('bi').addEventListener('animationend',ListenerFn)
+    
     if(sessionStorage['bj']==1){
         $(".loading").remove();
         $(".page1 img").attr("swiper-animate-delay","0s")
@@ -54,3 +56,17 @@ $(function() {
     },1000);
 
 });
+
+
+function ListenerFn(){
+    var timeTemp = 0
+    var a = setInterval(function(){
+        if(timeTemp==1){
+            $(".bi").css("animation-name","shan2").css("animation-iteration-count","infinite").css("animation-duration","2s")
+            clearInterval(a)
+        }
+        timeTemp++
+    },1000)
+    
+
+}
