@@ -326,9 +326,9 @@ body{
     }
 
     60% {
-        top:5.5rem;
+        top:7.5rem;
         left:13.8rem;
-        opacity: 1;
+        opacity: 0;
     }
 
 }
