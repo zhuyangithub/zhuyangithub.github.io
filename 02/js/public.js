@@ -25,5 +25,21 @@ $(function() {
         }
     })
 
+    var time = 1
+    var number = 0 
+    var t = setInterval(function(){
+        
+        if(t==10){
+            $(".loading").hide();
+            clearInterval(t)
+        }else{
+            if(number>=100){
+                number=100;
+            }
+            $(".loadingTxt").html(number+"%")
+        }
+        t++;
+        number+=15;
+    },1000);
 
 });

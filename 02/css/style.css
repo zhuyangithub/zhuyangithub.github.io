@@ -281,11 +281,12 @@ body{
     background: url('../img/bi.png') no-repeat;
     background-size: 0.12rem 0.57rem;
     z-index: 99;
-    animation: fei 1s linear ;
-    -moz-animation: fei 1s linear ;
-    -webkit-animation: fei 1s linear ;
+    opacity: 0;
+    animation: fei 1s linear infinite;
+    -moz-animation: fei 1s linear infinite;
+    -webkit-animation: fei 1s linear infinite;
     -o-animation: fei 1s linear infinite;
-    /* animation-delay:2s; */
+    animation-delay:2s;
 
 }
 
@@ -356,4 +357,67 @@ body{
         opacity: 1;
     }
 
+}
+.loading{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    z-index: 999;
+    background: url('../img/bg4.jpg') no-repeat center top;
+    background-size:cover;
+}
+
+.biIcon{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 0.12rem;
+    height: 0.57rem;
+    margin-left: -0.06rem;
+    margin-top: -0.485rem;
+    background: url('../img/bi.png') no-repeat;
+    background-size: 0.12rem 0.57rem;
+    z-index: 99;
+    animation: tiao 1s linear infinite;
+    -moz-animation: tiao 1s linear infinite;
+    -webkit-animation: tiao 1s linear infinite;
+    -o-animation: tiao 1s linear infinite;
+}
+.loadingTxt{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 0.62rem;
+    height: 0.57rem;
+    margin-left: -0.31rem;
+    margin-top: 0.3rem;
+    font-size: 0.12rem
+}
+
+@keyframes tiao {
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    30%{
+        transform: translateY(0);
+        opacity: .3;
+    }
+    50%{
+        transform: translateY(-0.2rem);
+        opacity: .8;
+    }
+    70%{
+        transform: translateY(0.3rem);
+        opacity: .8;
+    }
+    85%{
+        transform: translateY(-0.3rem);
+    }
+    100%{
+        transform: translateY(0);
+        opacity:1;
+    }
 }
