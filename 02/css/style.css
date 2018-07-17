@@ -289,7 +289,7 @@ body{
     -moz-animation: fei 2s linear infinite;
     -webkit-animation: fei 2s linear infinite;
     -o-animation: fei 2s linear infinite;
-    animation-delay:20s;
+    animation-delay:18s;
     transform: rotate(20deg);
 }
 
@@ -361,7 +361,6 @@ body{
 
 }
 .loading{
-    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -449,7 +448,7 @@ body{
     height: 1.71rem;
     background: url('../img/pageItem1_03Img.jpg')no-repeat;
     background-size:2.25rem 1.71rem;
-    top: 1.3rem;
+    top: 1.35rem;
     left: 2.9rem;
     z-index: 99;
 }
@@ -469,7 +468,7 @@ body{
     height: 0.9rem;
     background: url(../img/pageItem1_05Img.jpg) no-repeat;
     background-size: 1.4rem 0.9rem;
-    top: 2.09rem;
+    top: 2.16rem;
     right: 0.88rem;
     z-index: 99;
 }
@@ -489,7 +488,7 @@ body{
     height: 1.5rem;
     background: url(../img/pageItem1_07Img.jpg) no-repeat;
     background-size: 1.56rem 1.5rem;
-    top: 3.05rem;
+    top: 3.15rem;
     left: 2.9rem;
     z-index: 99;
 }
@@ -499,7 +498,7 @@ body{
     height: 1.19rem;
     background: url(../img/pageItem1_08Img.jpg) no-repeat;
     background-size: 1.86rem 1.19rem;
-    top: 3.06rem;
+    top: 3.16rem;
     right: 1.1rem;
     z-index: 99;
 }
@@ -509,7 +508,7 @@ body{
     height: 1rem;
     background: url(../img/pageItem1_09Img.jpg) no-repeat;
     background-size: 1.36rem 1rem;
-    top: 4.35rem;
+    top: 4.45rem;
     right: 1.6rem;
     z-index: 99;
 }
@@ -519,7 +518,7 @@ body{
     height: 1.12rem;
     background: url(../img/pageItem1_10Img.jpg) no-repeat;
     background-size: 1.42rem 1.12rem;
-    top: 4.6rem;
+    top: 4.75rem;
     right: 3.02rem;
     z-index: 99;
 }
