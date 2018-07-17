@@ -31,7 +31,7 @@ body{
 }
 
 .pageItem1{
-    width: 7.5rem;
+    width: 100%;
     text-align: center;
     height: 5.77rem;
     background: url('../img/img01.png') no-repeat;
@@ -297,37 +297,37 @@ body{
 @keyframes fei {
     0% {
         top: 0.5rem;
-        left: 5.6rem;
+        left: 560px;
         opacity: 1;
     }
 
     20% {
         top:2.5rem;
-        left:0.8rem;
+        left:80px;
         opacity: 1;
     }
 
     30% {
         top:3.5rem;
-        left:5.8rem;
+        left:580px;
         opacity: 1;
     }
 
     40% {
         top:5.5rem;
-        left:2.8rem;
+        left:280px;
         opacity: 1;
     }
 
     50% {
         top:5.5rem;
-        left:5.8rem;
+        left:580px;
         opacity: 1;
     }
 
     60% {
         top:5.5rem;
-        left:3.8rem;
+        left:380px;
         opacity: 1;
     }
 
@@ -390,9 +390,9 @@ body{
     position: absolute;
     top:50%;
     left:50%;
-    width: 0.62rem;
+    width: 0.72rem;
     height: 0.57rem;
-    margin-left: -0.31rem;
+    margin-left: -0.36rem;
     margin-top: 0.3rem;
     font-size: 0.14rem;
 }
