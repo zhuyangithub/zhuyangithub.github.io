@@ -296,38 +296,44 @@ body{
 
 @keyframes fei {
     0% {
-        top: 0.5rem;
-        left: 15.6rem;
+        /* top: 0.5rem; */
+        transform: translate(0.5rem, 5.6rem);
+        /* left: 15.6rem; */
         opacity: 1;
     }
 
     20% {
-        top:2.5rem;
-        left:1.8rem;
+        transform: translate(2.5rem, 1.8rem);
+        /* top:2.5rem;
+        left:1.8rem; */
         opacity: 1;
     }
 
     30% {
-        top:3.5rem;
-        left:15.8rem;
+        transform: translate(3.5rem, 5.8rem);
+        /* top:3.5rem;
+        left:15.8rem; */
         opacity: 1;
     }
 
     40% {
-        top:5.5rem;
-        left:12.8rem;
+        /* top:5.5rem;
+        left:12.8rem; */
+        transform: translate(5.5rem, 2.8rem);
         opacity: 1;
     }
 
     50% {
-        top:5.5rem;
-        left:15.8rem;
+        /* top:5.5rem;
+        left:15.8rem; */
+        transform: translate(5.5rem, 5.8rem);
         opacity: 1;
     }
 
     100% {
-        top:7.5rem;
-        left:13.8rem;
+        /* top:7.5rem;
+        left:13.8rem; */
+        transform: translate(7.5rem, 3.8rem);
         opacity: 0;
     }
 
