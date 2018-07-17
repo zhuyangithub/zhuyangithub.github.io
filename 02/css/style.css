@@ -289,7 +289,7 @@ body{
     -moz-animation: fei 2s linear infinite;
     -webkit-animation: fei 2s linear infinite;
     -o-animation: fei 2s linear infinite;
-    animation-delay:18s;
+    animation-delay:14s;
     transform: rotate(20deg);
 }
 
