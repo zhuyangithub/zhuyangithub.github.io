@@ -297,37 +297,37 @@ body{
 @keyframes fei {
     0% {
         top: 0.5rem;
-        left: 560px;
+        left: 15.6rem;
         opacity: 1;
     }
 
     20% {
         top:2.5rem;
-        left:80px;
+        left:1.8rem;
         opacity: 1;
     }
 
     30% {
         top:3.5rem;
-        left:580px;
+        left:15.8rem;
         opacity: 1;
     }
 
     40% {
         top:5.5rem;
-        left:280px;
+        left:12.8rem;
         opacity: 1;
     }
 
     50% {
         top:5.5rem;
-        left:580px;
+        left:15.8rem;
         opacity: 1;
     }
 
     60% {
         top:5.5rem;
-        left:380px;
+        left:13.8rem;
         opacity: 1;
     }
 
