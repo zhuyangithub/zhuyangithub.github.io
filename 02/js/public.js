@@ -1,4 +1,11 @@
 $(function() {
+
+    if(sessionStorage['bj']==1){
+        $(".loading").remove();
+        $(".page1 img").attr("swiper-animate-delay","0s")
+        $(".bi").css("animation-delay","3s")
+    }
+
     var snum = 10;
     var mySwiper = new Swiper ('.swiper-container', {
         direction : 'vertical',
@@ -9,8 +16,12 @@ $(function() {
         onInit: function(swiper){
             swiperAnimateCache(swiper);
             swiperAnimate(swiper);
+            sessionStorage.setItem('bj',1)
         },
         onSlideChangeEnd: function(swiper){
+            if(swiper.activeIndex==0){
+                $(".page1 img").attr("swiper-animate-delay","0s")
+            }
             swiperAnimate(swiper);
             if(snum == swiper.activeIndex){
                 //执行事件

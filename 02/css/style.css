@@ -278,19 +278,18 @@ body{
 .bi{
     position: absolute;
     top:2.5rem;
-    left:0.6rem;
+    left:0.3rem;
     width: 0.12rem;
     height: 0.57rem;
     background: url('../img/bi.png') no-repeat;
     background-size: 0.12rem 0.57rem;
     z-index: 100;
     opacity: 0;
-    animation: fei 5s linear infinite;
-    -moz-animation: fei 5s linear infinite;
-    -webkit-animation: fei 5s linear infinite;
-    -o-animation: fei 5s linear infinite;
+    animation: shan 0.2s ease-in-out forwards;
+    -moz-animation: shan 0.2s ease-in-out forwards;
+    -webkit-animation: shan 0.2s ease-in-out forwards;
+    -o-animation: shan 0.2s ease-in-out forwards;
     animation-delay:12s;
-    transform: rotate(20deg);
 }
 
 
@@ -425,6 +424,17 @@ body{
     }
     100%{
         transform: translateY(0);
+        opacity:1;
+    }
+}
+@keyframes shan {
+    0%{
+        top:0;
+        opacity: 1;
+    }
+   
+    100%{
+        top: 2rem;
         opacity:1;
     }
 }
