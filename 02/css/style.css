@@ -333,7 +333,7 @@ body{
     100% {
         /* top:7.5rem;
         left:13.8rem; */
-        transform: translate(7.5rem, 3.8rem);
+        transform: translate(5.5rem, 3.8rem);
         opacity: 0;
     }
 
