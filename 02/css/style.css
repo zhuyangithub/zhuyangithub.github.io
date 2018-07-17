@@ -285,12 +285,12 @@ body{
     background-size: 0.12rem 0.57rem;
     z-index: 100;
     opacity: 0;
-    animation: fei 1s linear infinite;
-    -moz-animation: fei 1s linear infinite;
-    -webkit-animation: fei 1s linear infinite;
-    -o-animation: fei 1s linear infinite;
+    animation: fei 2s linear infinite;
+    -moz-animation: fei 2s linear infinite;
+    -webkit-animation: fei 2s linear infinite;
+    -o-animation: fei 2s linear infinite;
     animation-delay:20s;
-
+    transform: rotate(20deg);
 }
 
 
@@ -299,7 +299,6 @@ body{
         top: 0.5rem;
         left: 5.6rem;
         opacity: 1;
-        transform: rotate(20deg);
     }
 
     20% {
