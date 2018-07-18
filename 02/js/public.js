@@ -8,7 +8,7 @@ $(function() {
         $(".bi").css("animation-delay","3s")
     }
 
-    var snum = 10;
+    var snum = 9;
     var mySwiper = new Swiper ('.swiper-container', {
         direction : 'vertical',
         pagination: '.swiper-pagination',

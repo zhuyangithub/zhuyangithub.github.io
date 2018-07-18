@@ -75,6 +75,7 @@ body{
 .page6{
     background: url('../img/bg6.jpg') no-repeat center top;
     background-size:cover;
+    padding-top: 0.5rem;
 }
 .page7{
     background: url('../img/bg7.jpg') no-repeat center top;
@@ -224,13 +225,13 @@ body{
     width: 7.5rem;
 }
 .pageItem24{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     overflow: hidden;
 }
 .pageItem24 li{
     float: left;
     width: 3.42rem;
-    height: 3.97rem;
+    /* height: 3.97rem; */
 }
 .pageItem24 li:nth-of-type(1){
     margin-left: 0.3rem;
